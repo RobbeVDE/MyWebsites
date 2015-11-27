@@ -1,0 +1,151 @@
+body{
+	 	margin:0;
+	 	font-family:Arial,Helvetica,freesans,sans-serif;
+ 	}
+
+	#topbar{
+		width:100%;
+		height:35px;
+	}
+
+	.fixedwith{
+		width: 1050px;
+		margin:0 auto;
+	}
+
+	#logodiv{
+		padding-top: 8px;
+		padding-left: 29px;
+		float: left;
+		border-right: 1px solid #cccccc;
+		padding-right: 8px;
+		padding-bottom: 5px;
+
+	}
+
+	#signindiv{
+		float: left;
+	}
+
+
+	#signindiv img{
+		padding:10px 15px 10px 15px;
+		border-right: 1px solid #cccccc;
+	}
+
+	#topmenudiv{
+		float:left;
+	}
+
+	#topmenudiv ul{
+		padding: 0px;
+		margin:0;
+		
+	}
+
+	#topmenudiv li{
+		list-style: none;
+		font-weight: bold;
+		border-right: 1px solid #cccccc;
+		padding: 11px 15px 11px 15px;
+		height: 100%;
+		float: left;
+		font-size: 0.8em;
+	}
+
+	#searchdiv{
+		float: left;
+		padding: 8px;
+	}
+
+	#searchdiv input{
+		height:22px;
+		border: none;
+		background-color:#e4e4e4;
+		padding-left: 8px;
+		background-image: url("images/search.jpg");
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
+
+
+
+	#newsbar{
+		width:100%;
+		height:55px;
+		background-color: #bb1919;
+		color:#ffffff;
+		padding-bottom: 5px;
+		position: relative;
+		top: 10px;
+	}
+
+	#newsbar p{
+		
+		margin: 0;
+
+	}
+
+	#News{
+		font-size: 2.6em;
+		position: relative;
+		left: -820px;
+		top:5px;
+	}
+
+	#menubar{
+		width:100%;
+		height:42px;
+		background-color: #a91717;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -10px
+	}
+
+	#menubardiv{
+			
+	}
+
+	#menubardiv lu{
+
+	}
+
+	#menubardiv li{
+		margin: 0;
+		padding: 0;
+		color: white;
+		list-style:none;
+		position: relative;
+		top:13px;
+		left: -30px;
+		float: left;
+		font-size: 0.95em;
+		border-right: 1px solid #bb4545;
+		padding-right: 10px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+
+
+	}
+
+	#content{
+		width:100%;
+		position: relative;
+		top: 25px;
+		left: 18px;
+
+	}
+
+	.break{
+		clear:both;
+	}
+
+	#newsheader{
+		color:#686868;
+		font-size: 1.15em;
+	}
+
+	#newsheader p{
+		color:#858585;
+	}
